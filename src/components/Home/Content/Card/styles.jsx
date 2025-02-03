@@ -5,8 +5,8 @@ export const Holder = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  width: ${({ isExpanded }) => (isExpanded ? "14rem" : "14rem")};
-  height: ${({ isExpanded }) => (isExpanded ? "88%" : "27rem")};
+  width: ${({ isExpanded }) => (isExpanded ? "90%" : "80%")};
+  height: ${({ isExpanded }) => (isExpanded ? "88%" : "70%")};
   border: 0.1px solid lightgray;
   border-radius: 15px;
   position: relative;
@@ -76,4 +76,12 @@ export const Price = styled.div`
     display: flex;
     margin-right: 2rem;
   }
+`;
+
+export const Master = styled.div`
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  align-items: center;
 `;
