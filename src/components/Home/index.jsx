@@ -11,7 +11,6 @@ export const Home = () => {
   const toggleSidebar = () => {
     setExpanded((prev) => !prev);
   };
-
   return (
     <S.Holder>
       <SideBar

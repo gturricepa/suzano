@@ -19,76 +19,67 @@ export const Content = ({ content, data, isExpanded }) => {
   const renderContent = () => {
     if (!data) return null;
 
-    const currentData =
-      content === "Geral" ? data.dados_gerais : data.instrutores[content];
-    if (!currentData) return null;
-
     return (
       <S.CardHolder>
         <Card
+          isExpanded={isExpanded}
+          data={data.instrutores[content].percorrido}
           image={km}
           title="Km Percorrido"
-          quantity={currentData.percorrido}
-          isExpanded={isExpanded}
-          dailyData={data.dados_gerais.dados_diarios}
-          owner={content}
-          rawData={currentData}
-          footer={true}
           legend="Voltas ao mundo"
-          value="123"
+          value={data.instrutores[content].volta_ao_mundo}
+          footer={true}
           icon={<FaEarthAmericas />}
+          owner={content}
+          rawData={data.instrutores[content]}
         />
         <Card
+          isExpanded={isExpanded}
           image={diesel}
           title="Diesel"
-          quantity={currentData.diesel}
-          isExpanded={isExpanded}
-          dailyData={data.dados_gerais.dados_diarios}
-          owner={content}
-          rawData={currentData}
+          data={data.instrutores[content].diesel}
           footer={true}
+          value={data.instrutores[content].piscina}
           legend="Piscinas olimpicas de combustível"
-          value="2"
           icon={<MdOutlinePool />}
+          owner={content}
+          rawData={data.instrutores[content]}
         />
         <Card
+          isExpanded={isExpanded}
           image={driver}
           title="Condutores Treinados"
-          quantity={currentData.condutores_treinados.total}
-          isExpanded={isExpanded}
-          dailyData={currentData.condutores_treinados.dados_diarios}
-          owner={content}
-          rawData={currentData}
+          data={data.instrutores[content].condutores_treinados.total}
           footer={true}
           legend="Horas trabalhadas"
-          value="15268"
+          value={data.instrutores[content].horas}
           icon={<MdAccessTime />}
+          owner={content}
+          rawData={data.instrutores[content]}
         />
         <Card
+          isExpanded={isExpanded}
           image={wood}
           title="Toneladas Transportadas"
-          quantity={currentData.toneladas_transportadas}
-          isExpanded={isExpanded}
-          dailyData={data.dados_gerais.dados_diarios}
-          owner={content}
-          rawData={currentData}
+          data={data.instrutores[content].toneladas_transportadas}
           footer={true}
+          value={data.instrutores[content].dm}
           legend="Baixa DM/hr"
-          value="26"
           icon={<FaTruck />}
+          owner={content}
+          rawData={data.instrutores[content]}
         />
         <Card
+          isExpanded={isExpanded}
           image={gasoline}
           title="Média Combustível"
-          quantity={currentData.media_combustivel}
-          isExpanded={isExpanded}
-          dailyData={data.dados_gerais.dados_diarios}
-          owner={content}
-          rawData={currentData}
+          data={data.instrutores[content].media_combustivel}
           footer={true}
           legend="Tempo médio de viagem/hr"
-          value="8"
+          value={data.instrutores[content].tempo_medio_horas}
           icon={<LuTimerReset />}
+          owner={content}
+          rawData={data.instrutores[content]}
         />
       </S.CardHolder>
     );
