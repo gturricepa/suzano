@@ -13,7 +13,7 @@
       "piscina": 0.0002,
       "horas": 41.54,
       "dm": 0,
-      "tempo_medio_horas": 13.84,
+      "tempo_medio_horas": 10.28,
       "dados_diarios": {
         "20": {
           "percorrido": 562,
@@ -46,38 +46,23 @@
       }
     },
     "Rafael Vitor": {
-      "percorrido": 523,
-      "diesel": 293,
+      "percorrido": 0,
+      "diesel": 0,
       "condutores_treinados": {
-        "total": 1,
-        "nomes": ["Amauri Forti"]
+        "total": 0,
+        "nomes": []
       },
-      "toneladas_transportadas": 158.7,
-      "media_combustivel": 1.78,
-      "volta_ao_mundo": 0.01,
-      "piscina": 0.0001,
-      "horas": 18.33,
+      "toneladas_transportadas": 0,
+      "media_combustivel": 0,
+      "volta_ao_mundo": 0,
+      "piscina": 0,
+      "horas": 0,
       "dm": 0,
-      "tempo_medio_horas": 9.16,
-      "dados_diarios": {
-        "6": {
-          "percorrido": 261,
-          "diesel": 147,
-          "media_combustivel": 1.77,
-          "toneladas_transportadas": 80,
-          "condutores": 1
-        },
-        "7": {
-          "percorrido": 262,
-          "diesel": 146,
-          "media_combustivel": 1.79,
-          "toneladas_transportadas": 78.7,
-          "condutores": 1
-        }
-      }
+      "tempo_medio_horas": 0,
+      "dados_diarios": {}
     },
     "Ismael": {
-      "percorrido": 1454,
+      "percorrido": 1694,
       "diesel": 1038,
       "condutores_treinados": {
         "total": 3,
@@ -155,24 +140,26 @@
     },
     "Cristiano Vitor": {
       "percorrido": 2015,
-      "diesel": 971.5,
+      "diesel": 1231.5,
       "condutores_treinados": {
-        "total": 5,
+        "total": 7,
         "nomes": [
           "Geremias Rodrigues Barros",
           "Regnaldo Andrade",
           "Julio César",
           "Cézar Roberto",
-          "Marcelo/Milton"
+          "Marcelo/Milton",
+          "Ricardo Alexandre",
+          "Nilson Gonçalves"
         ]
       },
-      "toneladas_transportadas": 467.5,
-      "media_combustivel": 1.81,
+      "toneladas_transportadas": 577.52,
+      "media_combustivel": 1.76,
       "volta_ao_mundo": 0.05,
       "piscina": 0.0003,
-      "horas": 178.33,
+      "horas": 154.33,
       "dm": 24,
-      "tempo_medio_horas": 11.1,
+      "tempo_medio_horas": 10.18,
       "dados_diarios": {
         "6": {
           "percorrido": 262,
@@ -211,34 +198,55 @@
         },
         "16": {
           "percorrido": 478,
-          "diesel": 78,
-          "media_combustivel": 2.88,
+          "diesel": 338,
+          "media_combustivel": 1.44,
           "toneladas_transportadas": 167.5,
           "condutores": 2
+        },
+        "27": {
+          "percorrido": 239,
+          "diesel": 142,
+          "media_combustivel": 1.68,
+          "toneladas_transportadas": 88,
+          "condutores": 2
+        },
+        "28": {
+          "percorrido": 224,
+          "diesel": 139,
+          "media_combustivel": 1.61,
+          "toneladas_transportadas": 90,
+          "condutores": 1
+        },
+        "29": {
+          "percorrido": 227,
+          "diesel": 140,
+          "media_combustivel": 1.62,
+          "toneladas_transportadas": 91,
+          "condutores": 1
         },
         "30": {
           "percorrido": 234,
           "diesel": 167,
           "media_combustivel": 1.4,
-          "toneladas_transportadas": 0,
-          "condutores": 0
+          "toneladas_transportadas": 90,
+          "condutores": 1
         }
       }
     },
     "Marcelo Paiva": {
-      "percorrido": 501,
-      "diesel": 440,
+      "percorrido": 1215,
+      "diesel": 724,
       "condutores_treinados": {
-        "total": 1,
-        "nomes": ["Amauri Forti"]
+        "total": 2,
+        "nomes": ["Amauri Forti", "Donizeti Tadeu da Silva"]
       },
-      "toneladas_transportadas": 158.7,
-      "media_combustivel": 1.73,
-      "volta_ao_mundo": 0.01,
-      "piscina": 0.0001,
-      "horas": 72,
+      "toneladas_transportadas": 414.7,
+      "media_combustivel": 1.68,
+      "volta_ao_mundo": 0.03,
+      "piscina": 0.0002,
+      "horas": 52,
       "dm": 24,
-      "tempo_medio_horas": 14.32,
+      "tempo_medio_horas": 10.4,
       "dados_diarios": {
         "6": {
           "percorrido": 262,
@@ -248,7 +256,7 @@
           "condutores": 1
         },
         "7": {
-          "percorrido": 0,
+          "percorrido": 263,
           "diesel": 152,
           "media_combustivel": 1.73,
           "toneladas_transportadas": 78.7,
@@ -258,47 +266,70 @@
           "percorrido": 239,
           "diesel": 142,
           "media_combustivel": 1.68,
-          "toneladas_transportadas": 0,
-          "condutores": 0
+          "toneladas_transportadas": 83,
+          "condutores": 1
+        },
+        "28": {
+          "percorrido": 224,
+          "diesel": 139,
+          "media_combustivel": 1.61,
+          "toneladas_transportadas": 88,
+          "condutores": 1
+        },
+        "29": {
+          "percorrido": 237,
+          "diesel": 209,
+          "media_combustivel": 1.13,
+          "toneladas_transportadas": 73.7,
+          "condutores": 1
+        },
+        "30": {
+          "percorrido": 489,
+          "diesel": 166,
+          "media_combustivel": 1.47,
+          "toneladas_transportadas": 80.4,
+          "condutores": 1
         }
       }
     },
     "Geral": {
-      "percorrido": 4545,
-      "diesel": 3341.5,
+      "percorrido": 6977,
+      "diesel": 3800.5,
       "condutores_treinados": {
-        "total": 9,
+        "total": 11,
         "nomes": [
           "Amauri Forti",
           "Donizette Tadeu da Silva",
           "Geremias Rodrigues Barros",
-          "Julio César",
-          "Luis Fernando Da Silva",
-          "Marcelo/Milton",
-          "Reginaldo Andrade",
           "Reginaldo José Vieira",
-          "Vanderlei Leme Gonçalves"
+          "Julio César",
+          "Cézar Roberto",
+          "Luis Fernando Da Silva",
+          "Ricardo Alexandre",
+          "Marcelo/Milton",
+          "Vanderlei Leme Gonçalves",
+          "Nilson Gonçalves"
         ]
       },
-      "toneladas_transportadas": 1718,
-      "media_combustivel": 1.75,
-      "volta_ao_mundo": 0.05,
-      "piscina": 0.11,
-      "horas": 413.67,
+      "toneladas_transportadas": 1889,
+      "media_combustivel": 1.83,
+      "volta_ao_mundo": 0.17,
+      "piscina": 0.15,
+      "horas": 352,
       "dm": 56,
-      "tempo_medio_horas": 11.1,
+      "tempo_medio_horas": 14.1,
       "dados_diarios": {
         "6": {
-          "percorrido": 523,
+          "percorrido": 524,
           "diesel": 295,
           "media_combustivel": 1.78,
           "toneladas_transportadas": 160,
           "condutores": 2
         },
         "7": {
-          "percorrido": 527,
-          "diesel": 298,
-          "media_combustivel": 1.76,
+          "percorrido": 524,
+          "diesel": 295,
+          "media_combustivel": 1.78,
           "toneladas_transportadas": 158.7,
           "condutores": 2
         },
@@ -326,57 +357,64 @@
         "15": {
           "percorrido": 297,
           "diesel": 136.5,
-          "media_combustivel": 2.385,
+          "media_combustivel": 2.38,
           "toneladas_transportadas": 90,
           "condutores": 2
         },
         "16": {
           "percorrido": 478,
-          "diesel": 78,
+          "diesel": 338,
           "media_combustivel": 2.88,
           "toneladas_transportadas": 167.5,
           "condutores": 1
         },
         "20": {
-          "percorrido": 181,
-          "diesel": 112,
-          "media_combustivel": 1.62,
-          "toneladas_transportadas": 89,
+          "percorrido": 743,
+          "diesel": 447,
+          "media_combustivel": 1.65,
+          "toneladas_transportadas": 162,
           "condutores": 1
         },
         "22": {
-          "percorrido": 240,
-          "diesel": 125,
-          "media_combustivel": 1.92,
-          "toneladas_transportadas": 88,
+          "percorrido": 479,
+          "diesel": 256,
+          "media_combustivel": 1.87,
+          "toneladas_transportadas": 170,
           "condutores": 1
         },
         "23": {
-          "percorrido": 236,
-          "diesel": 137,
-          "media_combustivel": 1.72,
-          "toneladas_transportadas": 85,
+          "percorrido": 475,
+          "diesel": 278,
+          "media_combustivel": 1.71,
+          "toneladas_transportadas": 169,
           "condutores": 1
         },
         "27": {
-          "percorrido": 139,
-          "diesel": 142,
-          "media_combustivel": 1.68,
-          "toneladas_transportadas": 0,
+          "percorrido": 478,
+          "diesel": 268,
+          "media_combustivel": 1.67,
+          "toneladas_transportadas": 187,
+          "condutores": 0
+        },
+        "28": {
+          "percorrido": 478,
+          "diesel": 267,
+          "media_combustivel": 1.79,
+          "toneladas_transportadas": 187,
           "condutores": 0
         },
         "29": {
-          "percorrido": 237,
-          "diesel": 209,
-          "media_combustivel": 1.13,
-          "toneladas_transportadas": 73.7,
+          "percorrido": 453,
+          "diesel": 277,
+          "media_combustivel": 1.63,
+          "toneladas_transportadas": 1.78,
           "condutores": 1
         },
         "30": {
-          "percorrido": 489,
-          "diesel": 166,
-          "media_combustivel": 1.47,
-          "toneladas_transportadas": 80.4,
+          "percorrido": 234,
+          "diesel": 167,
+          "media_combustivel": 1.4,
+          "toneladas_transportadas": 90,
           "condutores": 1
         }
       }

@@ -73,8 +73,6 @@ export const Card = ({
       valor: dados[chave],
     }));
 
-    console.log(dataForChart); // Log dos dados para o gráfico
-
     return (
       <ResponsiveContainer width="100%" height={300}>
         <LineChart data={dataForChart}>
